@@ -10,6 +10,9 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ * indicates any files in the same folder, including files in subfolders, should be combined into a single file for delivery to the browser.
  *= require_tree .
+ 
+ * indicates that any CSS in the file should be delivered to the browser.
  *= require_self
  */

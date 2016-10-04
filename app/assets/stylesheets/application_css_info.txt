@@ -1,0 +1,20 @@
+	The app/assets/stylesheets/application.css.scss file serves two purposes.
+    First, you can add any CSS rules to the file that you want to use anywhere on
+    your website. Second, the file serves as a manifest, providing a list of files that
+    should be concatenated and included in the single CSS file that is delivered to
+    the browser
+
+    	You could use this file for any style rules that are used on every page, particularly simple utility rules such
+    220 CHAPTER 17. FRONT-END FRAMEWORK
+    as highlighting or resetting the appearance of links. However, in practice, you
+    are more likely to modify the style rules provided by Zurb Foundation. These
+    modifications don’t belong in the app/assets/stylesheets/application.css.scss
+    file; they will go in the app/assets/stylesheets/1st_load_framework.css.scss
+    file.
+    
+    	In general, it’s bad practice to place a lot of CSS in the app/assets/stylesheets/application.css.scss
+    file (unless your CSS is very limited). Instead, structure your CSS in multiple
+    files. CSS that is used on only a single page can go in a file with a name
+    that matches the page. Or, if sections of the website share common elements,
+    such as themes for landing pages or administrative pages, make a file for each
+    theme.
