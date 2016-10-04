@@ -2,3 +2,15 @@
 <p>Welcome to the home of <%= @owner.name %>.</p>
 <p>I was born on <%= @owner.birthdate %>.</p>
 <p>Only <%= @owner.birthday_countdown %> days until my next lonely birthday... </p>
+
+<% content_for :sidebar do %>
+<h3>Contact Info</h3>
+<p>Email: me@example.com</p>
+<% end %>
+<h3>Main</h3>
+<p>Welcome!</p>
+
+<% content_for :sidebar do %>
+<h3>Contact Info</h3>
+<p>Email: me@example.com</p>
+<% end %>
