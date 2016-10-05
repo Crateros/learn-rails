@@ -7,7 +7,7 @@ class VisitorsController < ApplicationController
     #render 'visitors/new'
     
     flash.now[:notice] = 'Welcome! This is a flash success test.'
-    flash.now[:alert] = 'My birthday is soon. This is a flash alert test.'
+    flash.now[:alert] = "My birthday is soon, only #{@owner.birthday_countdown} days until I am that much closer to the end. This is a flash alert test."
   
     # Using flash.now will make sure the message only appears on the rendered
     # page and will not persist after a user follows a link to a new page.
