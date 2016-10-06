@@ -5,9 +5,10 @@ class VisitorsController < ApplicationController
     
     #This is implied by 'new' method
     #render 'visitors/new'
-    
     flash.now[:notice] = 'Welcome! This is a flash success test.'
-    flash.now[:alert] = "My birthday is soon, only #{@owner.birthday_countdown} days until I am that much closer to the end. This is a flash alert test."
+    # Must use "" marks if embedding ruby insisde flash message, otherwise ''.
+    flash.now[:alert] = "My birthday is soon, only #{@owner.birthday_countdown} days until my next lonely birthday. This is a flash alert test."
+    flash.now[:warning] = "Cory Dumping James?!?!?!?!"
   
     # Using flash.now will make sure the message only appears on the rendered
     # page and will not persist after a user follows a link to a new page.

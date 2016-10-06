@@ -1,0 +1,41 @@
+[33mcommit 53564c14b4cbe4bfd802121f35d34b4b271b7dbd[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Wed Oct 5 00:18:35 2016 +0000
+
+    more styling & adding about and contact pages
+
+[33mcommit ee85065f219a1c6012c0f874e49bb421e6814193[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Tue Oct 4 23:15:04 2016 +0000
+
+    front-emd framework via Foundation
+
+[33mcommit 0ed83711c0b449268a076f357d046692bcab68ae[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Tue Oct 4 18:42:43 2016 +0000
+
+    Update application layout
+
+[33mcommit 56c34ff71e42dff0243d4b657f142e65ed7307a6[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Sun Oct 2 04:50:29 2016 +0000
+
+    Added view and controller for visitors, displays birthday.
+
+[33mcommit c41a51775e122568496b36441c1dee4b801608f4[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Wed Sep 28 04:39:04 2016 +0000
+
+    Add configuration (secrets.yml & bash.rc).
+
+[33mcommit a6eb91c721a2f50a4bb5e78a330a369f13708604[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Tue Sep 27 06:14:26 2016 +0000
+
+    Added gems / updated gemfile
+
+[33mcommit 3ff7e360a7ec9395bc8a990f8752db6277ea5a3f[m
+Author: crateropoop <dsvene@gmail.com>
+Date:   Mon Sep 26 21:56:18 2016 +0000
+
+    Innitial commit
